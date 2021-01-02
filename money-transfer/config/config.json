@@ -1,0 +1,59 @@
+{
+    "development": {
+        "config_id": "development",
+        "app_name": "moneyTransfer",
+        "app_desc": "moneyTransfer",
+        "node_port": 1600,  
+        "json_indentation": 4,
+        "host":"localhost",
+        "basicAuthUser":"moneyTransfer",
+        "basicAuthKey":"SFDSA78FSA7FFDSAFJRE32DSF98DSGFDGFDSH9H8FDSGFR4R549898DFDS",
+        "database": "moneyTransfer",
+        "url":"http://localhost:1600/",
+        "adminURL":"http://localhost:1600/",
+        "swaggerURL":"172.16.1.119:1600",
+        "nodemailer":{
+            "pass": "Mobiloitte1",
+            "user": "node-trainee@mobiloitte.com"
+        } 
+
+    },
+    "staging": {  
+        "config_id": "staging",    
+        "node_port": 1535,
+        "database": "moneyTransfer",
+        "host":"localhost",
+        "basicAuthUser":"moneyTransfer",
+        "basicAuthKey":"SFDSA78FSA7FFDSAFJRE32DSF98DSGFDGFDSH9H8FDSGFR4R549898DFDS",
+        "swaggerURL":"ec2-35-176-66-190.eu-west-2.compute.amazonaws.com:1535",
+        "nodemailer":{
+            "pass": "Mobiloitte1",
+            "user": "node-trainee@mobiloitte.com"
+        },
+            "cloudinary":{ 
+                "cloud_name":"", 
+                "api_key": "", 
+                "api_secret": ""
+            }
+    },
+    "production": {
+        "config_id": "production",
+        "node_port": 1600,
+        "database": "moneyTransfer",
+        "host":"localhost",
+        "basicAuthUser":"moneyTransfer",
+        "user":"la-najmuddin@mobiloitte.com",
+        "pass":"Mobiloitte@1",
+        "basicAuthKey":"SFDSA78FSA7FFDSAFJRE32DSF98DSGFDGFDSH9H8FDSGFR4R549898DFDS",
+        "nodemailer":{
+            "user":"",
+            "pass":""
+        },
+        "cloudinary":{ 
+            "cloud_name":"", 
+            "api_key": "", 
+            "api_secret": ""
+        }
+    }
+}
+
